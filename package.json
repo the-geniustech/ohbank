@@ -1,0 +1,19 @@
+{
+  "name": "ohbank",
+  "version": "1.0.0",
+  "description": "this is a fictional bank web app created by olaogun hakeem",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Olaogun Hakeem",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/core-js": "^2.5.5",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.25.5"
+  }
+}
